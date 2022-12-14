@@ -1,0 +1,30 @@
+
+body{
+    background-color: grey;
+    background: url(./images/background3.jpeg) no-repeat center fixed;
+    background-size: cover;
+
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px;
+    background-color:rgba(16, 141, 152, 0.77);
+    border: 2px ridge rgba(238, 238, 238, 0.13);
+    border-radius: 5px;
+    box-shadow: 0 -5px 10px 1px rgba(32, 67, 70 , 0.77);
+    border-bottom: none;
+}
+.login {
+    width: 45%;
+    float: left;
+    text-align: left;
+    padding-right: 40px;
+}
+.signup {
+    width: 44%;
+    float: left;
+    border-left: 1px solid #DDD;
+    padding-left: 40px;
+    text-align: left;
+}

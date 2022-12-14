@@ -1,0 +1,68 @@
+body{
+    background-color: grey;
+    background: url(../../images/background3.jpeg) no-repeat center fixed;
+    background-size: cover;
+}   
+.header{
+    padding:0;
+}
+.brand {
+    margin-left: 2vh;
+}
+
+#sidebar {
+   margin-top: 10vh;
+}
+
+#sidebar .nav-item {
+    text-align: left;
+    border-bottom: 1px solid aliceblue;
+    border-radius: 5px;
+}
+
+#sidebar .nav-item a {
+    background-color: rgba(100, 173, 195, .7);
+    padding: 20px;
+    color: rgba(31, 66, 78, .7);
+}
+
+#sidebar a.active,
+#sidebar a:hover {
+    color: aliceblue;
+
+}
+.card{
+    margin-top: 10vh;
+    background-color: #fff;
+    display: block;
+    border: 0px;
+}
+.card-img-top{
+   text-align: center;
+}
+.card-body {
+	padding: 20px;
+	background: rgba(100, 173, 195, .7);
+	text-align: left;
+    color: rgba(31, 66, 78, .7);
+
+}
+
+.footer{
+    background-color: #fff;
+    height: 20vh;
+}
+
+.searchbar{
+    margin-top: 10vh;
+}
+.btn-search{
+    background-color:rgba(100, 173, 195, .7) ;
+    border: 0;
+    color: #fff;
+}
+.btn a{
+    text-decoration: none;
+    border: 0;
+    color: #fff;
+}

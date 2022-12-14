@@ -1,0 +1,47 @@
+body{
+    background-color: grey;
+}
+.brand {
+    margin-left: 2vh;
+}
+/* 
+#sidebar {
+    position: fixed;
+    top: 15vh;
+    bottom: 0;
+    left: 10vh;
+    z-index: 9999;
+    max-width: 200px;
+    max-height: fit-content;
+} */
+
+#sidebar .nav-item {
+    text-align: left;
+    border-bottom: 1px solid aliceblue;
+    border-radius: 5px;
+}
+
+#sidebar .nav-item a {
+    background-color: rgba(100, 173, 195, .7);
+    padding: 20px;
+    color: rgba(31, 66, 78, .7);
+}
+
+#sidebar a.active,
+#sidebar a:hover {
+    color: aliceblue;
+
+}
+.card{
+    background-color: #fff;
+}
+.card-img-top{
+    text-align: center;
+}
+.card-body {
+	padding: 20px;
+	background: rgb(112, 128, 144);
+	text-align: left;
+	color: rgb(255, 255, 255);
+    border-color:rgb(112, 128, 144); ;
+}
